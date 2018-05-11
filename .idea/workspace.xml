@@ -2,44 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e86f9b4-0fdf-4a43-9082-a5fd37fbc27f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/impl/DefaultContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/Etcd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/impl/DefaultEtcd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/ControllerException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/EtcdException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/NatsInitialException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/ParamsBuilderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/ProxyServiceMethodBuilderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/Nats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/AbstractAnyunCloudMessageFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/DefaultErrorMessageFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/DefaultJsonMessageFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/ParamsBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/impl/DefaultMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/impl/DefaultNats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/params/MessageFormater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/params/ProxyServiceMethodBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/params/ProxyServiceMethodInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/AbstractAnyunCloudMessageFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/MessageHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/RequestMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/ResponseMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/MessageProcessingService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/params/BUSINESS_ENUM.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/base/Context.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/MySQLClientBindModule.java" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/ClientBindModule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/ClientConfig.java" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/EtcdConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/ApiTestDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/impl/ApiTestDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/entity/ApiTestEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/DaoBindModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/ServiceBindModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/ApiTestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/impl/ApiTestServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/AbstractIciqlDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/dispath/ErrorCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/dispath/Response.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/target/classes/Main.class" afterPath="$PROJECT_DIR$/api-paas/target/classes/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/pom.xml" afterPath="$PROJECT_DIR$/api-paas/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/src/main/java/Main.java" afterPath="$PROJECT_DIR$/api-paas/src/main/java/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/BaseBindModule.java" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/BaseBindModule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/api-paas/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/Database.java" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/Database.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/DatabaseConfig.java" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/DatabaseConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/NatsConfig.java" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/NatsConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,21 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java">
+      <file leaf-file-name="IndexAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAnyunCloudMessageFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/AbstractAnyunCloudMessageFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,83 +47,107 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultErrorMessageFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/DefaultErrorMessageFormat.java">
+      <file leaf-file-name="ApiTestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/ApiTestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultMessageHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/impl/DefaultMessageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-464">
-              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/component/SystemProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionProcess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/startup/OptionProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartupOption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/startup/StartupOption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="150">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncryptUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/EncryptUtils.java">
+      <file leaf-file-name="ApiTestServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/impl/ApiTestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiTestDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/ApiTestDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiTestDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/impl/ApiTestDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractIciqlDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/AbstractIciqlDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/impl/DefaultContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/Database.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/FileUtil.java">
+      <file leaf-file-name="InjectorsBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/bean/InjectorsBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="183">
+              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/StringUtils.java">
+      <file leaf-file-name="BaseBindModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/BaseBindModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -174,6 +168,9 @@
     <findStrings>
       <find>plugin-compiler</find>
       <find>plugin-dependency</find>
+      <find>mysql.service.consul</find>
+      <find>iciql</find>
+      <find>data</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/common</dir>
@@ -191,23 +188,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/AbstractEntity.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/StringUtils.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/EncryptUtils.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/FileUtil.java" />
-        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/JettyRestServerImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/pom.xml" />
-        <option value="$PROJECT_DIR$/api-paas/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/DaemonStartup.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/component/SystemProvider.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/Nats.java" />
         <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/base/Context.java" />
         <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/base/impl/DefaultContext.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/DatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java" />
-        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/EtcdException.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/ControllerException.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/impl/DefaultEtcd.java" />
@@ -240,8 +223,22 @@
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/Context.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/impl/DefaultContext.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/Database.java" />
-        <option value="$PROJECT_DIR$/api-paas/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/impl/DefaultMessageHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/dispath/Response.java" />
+        <option value="$PROJECT_DIR$/api-paas/pom.xml" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/ApiTestService.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/entity/ApiTestEntity.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/ServiceBindModule.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/dispath/ErrorCode.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/ApiTestDao.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/DaoBindModule.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/DatabaseConfig.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/AbstractIciqlDao.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/impl/ApiTestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/impl/ApiTestDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -285,11 +282,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="188" />
-    <option name="y" value="435" />
-    <option name="width" value="1482" />
-    <option name="height" value="919" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="189" />
+    <option name="y" value="113" />
+    <option name="width" value="1566" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -454,7 +451,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="daemon" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -464,8 +461,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="daemon" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -476,6 +472,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
+              <item name="api-paas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
+              <item name="api-paas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -566,6 +583,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -590,7 +619,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="etcd" type="462c0819:PsiDirectoryNode" />
+              <item name="dispath" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -603,7 +632,6 @@
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="etcd" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -662,22 +690,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="nats" type="462c0819:PsiDirectoryNode" />
-              <item name="format" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="nats" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -689,6 +702,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="params" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
@@ -966,7 +980,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526016363944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="base">
+      <created>1526023955964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526023955964</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -975,7 +996,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="189" y="113" width="1566" height="947" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -986,11 +1007,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2276941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30171427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29812208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1996805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30446196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1028,164 +1049,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/params/BUSINESS_ENUM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/params/BUSINESS_ENM.java" />
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/BUSSINESS_ENUM.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/params/BUSINESS_ENUM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/DatabaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/NatsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/Nats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/MessageProcessingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/nats/jnats/1.0/jnats-1.0-sources.jar!/io/nats/client/MessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/EtcdConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/ParamsBuilderException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/JettyRestServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/JettyRestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/impl/DefaultNats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/exception/ProxyServiceMethodBuilderException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/params/ProxyServiceMethodBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/MessageHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/RequestMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/ResponseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/MessageFormater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/protocol/AbstractAnyunCloudMessageFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1199,7 +1062,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1217,7 +1080,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1230,103 +1093,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/BaseBindModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/Etcd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/ClientBindModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/impl/DefaultEtcd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/impl/DefaultContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/DaemonStartup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#931#1014#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/StartupClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/bean/InjectorsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#496#580#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,30 +1133,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/AbstractAnyunCloudMessageFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/DefaultErrorMessageFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1394,6 +1147,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-464">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/StartupClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/JettyRestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/mysql/ClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/nats/format/AbstractAnyunCloudMessageFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/service/MessageProcessingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1408,7 +1203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/startup/OptionProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="120">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
@@ -1416,7 +1211,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/startup/StartupOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="120">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
@@ -1440,9 +1235,297 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="-503">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/dispath/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/entity/ApiTestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/dispath/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/DatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/EtcdConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#696#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/ServiceBindModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/DaemonStartup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#1014#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/JettyRestServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/etcd/impl/DefaultEtcd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/DaoBindModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/ClientBindModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/base/impl/DefaultContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/module/BaseBindModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/bean/InjectorsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/api/IndexAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/ApiTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/service/impl/ApiTestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/ApiTestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/common/db/AbstractIciqlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/dao/impl/ApiTestDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

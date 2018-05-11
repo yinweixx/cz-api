@@ -11,9 +11,9 @@ import java.io.Serializable;
 @Singleton
 public class ClientConfig implements Serializable{
     private String driver = "com.mysql.jdbc.Driver";
-    private String url = "jdbc:mysql://cluster.mysql.anyuncloud.com/anyuncloud?useUnicode=true&characterEncoding=utf8&autoReconnect=true";
+    private String url = "jdbc:mysql://mysql.service.consul/test1?useUnicode=true&characterEncoding=utf8&autoReconnect=true";
     private String username = "root";
-    private String password = "111111";
+    private String password = "1234qwer";
 
     public String getDriver() {
         return driver;

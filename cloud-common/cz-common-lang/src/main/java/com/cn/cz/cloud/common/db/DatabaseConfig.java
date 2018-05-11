@@ -68,4 +68,19 @@ public class DatabaseConfig {
     public String getJdbcPasswd() {
         return jdbcPasswd;
     }
+
+    @Override
+    public String toString() {
+        return "DatabaseConfig{" +
+                "validationSql='" + validationSql + '\'' +
+                ", poolInitSize=" + poolInitSize +
+                ", poolMaxSize=" + poolMaxSize +
+                ", validationTimeOut=" + validationTimeOut +
+                ", jdbcDriver='" + jdbcDriver + '\'' +
+                ", jdbcUri='" + jdbcUri + '\'' +
+                ", jdbcUser='" + jdbcUser + '\'' +
+                ", jdbcPasswd='" + jdbcPasswd + '\'' +
+                ", mysql=" + mysql +
+                '}';
+    }
 }
