@@ -1,5 +1,7 @@
 package com.cn.cz.cloud.management.module;
 
+import com.cn.cz.cloud.common.base.Context;
+import com.cn.cz.cloud.common.base.impl.DefaultContext;
 import com.cn.cz.cloud.management.host.startup.daemon.JettyRestServer;
 import com.cn.cz.cloud.management.host.startup.daemon.StartupClass;
 import com.cn.cz.cloud.management.host.startup.daemon.impl.DaemonStartup;
@@ -17,9 +19,8 @@ public class BaseBindModule extends AbstractModule{
 
     @Override
     protected void configure() {
+        bind(Context.class).to(DefaultContext.class);
         bind(StartupClass.class).to(DaemonStartup.class);
-        LOGGER.info("Bind startup to :{}",DaemonStartup.class.getCanonicalName());
         bind(JettyRestServer.class).to(JettyRestServerImpl.class);
-        LOGGER.info("bind JettyRestServer to :{}" ,JettyRestServer.class.getCanonicalName());
     }
 }

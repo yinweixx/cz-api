@@ -1,5 +1,9 @@
 package com.cn.cz.cloud.common.db;
 
+import com.cn.cz.cloud.common.mysql.ClientConfig;
+
+import javax.inject.Inject;
+
 /**
  * @author ywaz
  * @date 5/10/18 16:57
@@ -13,48 +17,25 @@ public class DatabaseConfig {
     private int poolInitSize;
     private int poolMaxSize;
     private int validationTimeOut;
-    private SystemEnvironment environment;
     private String jdbcDriver;
     private String jdbcUri;
     private String jdbcUser;
     private String jdbcPasswd;
+    private ClientConfig mysql;
 
-    public DatabaseConfig(SystemEnvironment environment) {
-        if (environment == null)
-            return;
-        this.environment = environment;
-        jdbcUri = environment.getEnv(SystemEnvironment.DB_JDBC_URI);
-        jdbcUser = environment.getEnv(SystemEnvironment.DB_JDBC_USR);
-        jdbcPasswd = environment.getEnv(SystemEnvironment.DB_JDBC_PWD);
-        jdbcDriver = environment.getEnv(SystemEnvironment.DB_JDBC_DRIVER);
-        if ((validationSql = environment.getEnv(SystemEnvironment.DB_VALIDATION_SQL)) == null) {
-            validationSql = VALIDATION_SQL;
-        }
-        if ((poolInitSize = convertInt(SystemEnvironment.DB_INIT_SIZE)) == 0) {
-            poolInitSize = DEFAULT_INIT_SIZE;
-        }
-        if ((poolMaxSize = convertInt(SystemEnvironment.DB_MAX_SIZE)) == 0) {
-            poolMaxSize = DEFAULT_MAX_SIZE;
-        }
-        if ((validationTimeOut = convertInt(SystemEnvironment.DB_VALIDATION_TIMEOUT)) == 0) {
-            validationTimeOut = DEFAULT_VALIDATION_TIMEOUT;
-        }
+    @Inject
+    public DatabaseConfig(ClientConfig clientConfig) {
+        this.mysql = clientConfig;
+        this.jdbcUri = mysql.getUrl();
+        this.jdbcUser = mysql.getUsername();
+        this.jdbcPasswd = mysql.getPassword();
+        this.jdbcDriver = mysql.getDriver();
+        this.validationSql = VALIDATION_SQL;
+        this.poolInitSize = DEFAULT_INIT_SIZE;
+        this.poolMaxSize = DEFAULT_MAX_SIZE;
+        this.validationTimeOut = DEFAULT_VALIDATION_TIMEOUT;
     }
 
-    public DatabaseConfig() {
-    }
-
-    private int convertInt(String name) {
-        String value = environment.getEnv(name);
-        if (value == null || value.equals("")) {
-            return 0;
-        }
-        try {
-            return Integer.valueOf(value);
-        } catch (Exception ex) {
-            return 0;
-        }
-    }
 
     public String getValidationSql() {
         return validationSql;

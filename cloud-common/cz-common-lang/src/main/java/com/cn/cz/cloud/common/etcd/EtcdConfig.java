@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @date 5/10/18 16:43
  */
 @Singleton
-public class ClientConfig implements Serializable{
+public class EtcdConfig implements Serializable{
     private String schema = "http";
     private String host = "etcd";
     private int port = 2379;
@@ -48,7 +48,7 @@ public class ClientConfig implements Serializable{
 
     @Override
     public String toString() {
-        return "ClientConfig{" +
+        return "EtcdConfig{" +
                 "schema='" + schema + '\'' +
                 ", host='" + host + '\'' +
                 ", port=" + port +

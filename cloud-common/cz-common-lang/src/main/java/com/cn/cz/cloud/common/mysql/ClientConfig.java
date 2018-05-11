@@ -1,5 +1,6 @@
 package com.cn.cz.cloud.common.mysql;
 
+import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.io.Serializable;
 
@@ -48,7 +49,7 @@ public class ClientConfig implements Serializable{
 
     @Override
     public String toString() {
-        return "ClientConfig{" +
+        return "EtcdConfig{" +
                 "driver='" + driver + '\'' +
                 ", url='" + url + '\'' +
                 ", username='" + username + '\'' +

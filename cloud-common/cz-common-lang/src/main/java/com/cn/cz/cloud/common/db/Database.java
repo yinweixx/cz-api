@@ -44,4 +44,8 @@ public class Database {
     public Db getDb() {
         return db;
     }
+
+    public DatabaseConfig getConfig() {
+        return config;
+    }
 }
