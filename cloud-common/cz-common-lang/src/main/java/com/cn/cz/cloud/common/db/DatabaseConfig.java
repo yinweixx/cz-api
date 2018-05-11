@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.management.common.db;
+package com.cn.cz.cloud.common.db;
 
 /**
  * @author ywaz

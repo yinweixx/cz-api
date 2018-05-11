@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.management.module;
+package com.cn.cz.cloud.management.api.base;
 
 /**
  * @author ywaz

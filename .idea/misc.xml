@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-common/common-lang/pom.xml" />
         <option value="$PROJECT_DIR$/cz-api-controller/pom.xml" />
       </set>
     </option>

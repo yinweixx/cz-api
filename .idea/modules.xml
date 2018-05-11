@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-paas/cz-cloud-api-paas.iml" filepath="$PROJECT_DIR$/api-paas/cz-cloud-api-paas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-common/cz-cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cz-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-common/cz-common-lang/cz-cloud-common-lang.iml" filepath="$PROJECT_DIR$/cloud-common/cz-common-lang/cz-cloud-common-lang.iml" />
       <module fileurl="file://$PROJECT_DIR$/cz-cloud-parent-pass.iml" filepath="$PROJECT_DIR$/cz-cloud-parent-pass.iml" />
     </modules>
   </component>

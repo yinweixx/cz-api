@@ -1,6 +1,7 @@
 package com.cn.cz.cloud.management.api;
 
-import com.cn.cz.cloud.management.common.json.JsonUtil;
+
+import com.cn.cz.cloud.common.json.JsonUtil;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

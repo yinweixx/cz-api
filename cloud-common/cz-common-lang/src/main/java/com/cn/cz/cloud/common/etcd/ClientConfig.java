@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.management.common.etcd;
+package com.cn.cz.cloud.common.etcd;
 
 import javax.inject.Singleton;
 import java.io.Serializable;

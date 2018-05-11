@@ -1,7 +1,6 @@
 package com.cn.cz.cloud.management.module;
 
-;
-import com.cn.cz.cloud.management.common.mysql.ClientConfig;
+import com.cn.cz.cloud.common.mysql.ClientConfig;
 import com.google.inject.AbstractModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

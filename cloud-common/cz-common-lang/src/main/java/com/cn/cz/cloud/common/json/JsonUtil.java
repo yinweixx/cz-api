@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.management.common.json;
+package com.cn.cz.cloud.common.json;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

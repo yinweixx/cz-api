@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.management.common.bean;
+package com.cn.cz.cloud.common.bean;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;
@@ -29,7 +29,7 @@ public class InjectorsBuilder {
         return this;
     }
 
-    public <T> T getInstance(Class<T> type){
+    public <T> T getInstanceByType(Class<T> type){
         return kernelInjector.getInstance(type);
     }
 

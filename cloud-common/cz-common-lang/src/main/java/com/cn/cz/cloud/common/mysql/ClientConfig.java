@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.management.common.mysql;
+package com.cn.cz.cloud.common.mysql;
 
 import javax.inject.Singleton;
 import java.io.Serializable;
