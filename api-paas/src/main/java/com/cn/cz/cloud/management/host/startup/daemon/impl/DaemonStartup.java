@@ -3,8 +3,6 @@ package com.cn.cz.cloud.management.host.startup.daemon.impl;
 import com.cn.cz.cloud.common.bean.InjectorsBuilder;
 import com.cn.cz.cloud.management.host.startup.daemon.JettyRestServer;
 import com.cn.cz.cloud.management.host.startup.daemon.StartupClass;
-import com.cn.cz.cloud.tools.startup.StartupOption;
-import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -41,6 +41,7 @@
         <version.iciql>2.1.1</version.iciql>
         <version.p6spy>3.6.0</version.p6spy>
         <version.bouncycastle>1.54</version.bouncycastle>
+        <version.jaxb-api>2.3.0</version.jaxb-api>
     </properties>
 
     <dependencyManagement>
@@ -150,6 +151,11 @@
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-jdk15on</artifactId>
                 <version>${version.bouncycastle}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>${version.jaxb-api}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
