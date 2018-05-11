@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e86f9b4-0fdf-4a43-9082-a5fd37fbc27f" name="Default" comment="base">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-paas/src/main/resources/logback.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/target/classes/com/cn/cz/cloud/api/IndexAPI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/target/classes/com/cn/cz/cloud/common/json/JsonUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/target/cz-cloud-api-paas-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-paas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/target/classes/Main.class" afterPath="$PROJECT_DIR$/api-paas/target/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/cz-cloud-api-paas.iml" afterPath="$PROJECT_DIR$/api-paas/cz-cloud-api-paas.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/DaemonStartup.java" afterPath="$PROJECT_DIR$/api-paas/src/main/java/com/cn/cz/cloud/management/host/startup/daemon/impl/DaemonStartup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/cz-cloud-common-lang.iml" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/cz-cloud-common-lang.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/pom.xml" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/component/SystemProvider.java" afterPath="$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/component/SystemProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-paas/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/api-paas/src/main/resources/logback.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,11 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="195" column="1" lean-forward="false" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+            <state relative-caret-position="535">
+              <caret line="176" column="24" lean-forward="true" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-paas/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -328,6 +323,7 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -520,126 +516,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="etcd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="nats" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="startup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cz-cloud-parent-pass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cz-cloud-parent-pass" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cz-common-lang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="wsrs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -797,11 +674,19 @@
       <option name="project" value="LOCAL" />
       <updated>1526010380117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="base">
+      <created>1526016271034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526016271034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="72" width="1768" height="970" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,6 +721,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="log4j" />
     <MESSAGE value="base" />
     <option name="LAST_COMMIT_MESSAGE" value="base" />
   </component>
@@ -958,14 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-paas/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1185,8 +1063,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cz-common-lang/src/main/java/com/cn/cz/cloud/tools/wsrs/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="195" column="1" lean-forward="false" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+        <state relative-caret-position="535">
+          <caret line="176" column="24" lean-forward="true" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-paas/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
