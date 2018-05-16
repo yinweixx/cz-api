@@ -115,6 +115,13 @@
                 <artifactId>p6spy</artifactId>
                 <version>${version.p6spy}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/javax.transaction/jta -->
+            <dependency>
+                <groupId>javax.transaction</groupId>
+                <artifactId>jta</artifactId>
+                <version>1.1</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

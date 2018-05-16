@@ -1,7 +1,5 @@
 package com.cn.cz.cloud.management.dao.impl;
 
-import com.cn.cz.cloud.common.base.Context;
-import com.cn.cz.cloud.common.bean.InjectorsBuilder;
 import com.cn.cz.cloud.common.db.AbstractIciqlDao;
 import com.cn.cz.cloud.common.db.Database;
 import com.cn.cz.cloud.management.dao.ApiTestDao;
@@ -28,13 +26,9 @@ public class ApiTestDaoImpl extends AbstractIciqlDao implements ApiTestDao{
 
     @Override
     public List<ApiTestEntity> queryTest() throws RuntimeException {
-
-        System.out.println(InjectorsBuilder.getBuilder().getInstanceByType(Context.class).getDataBase().getConfig().toString());
         String sql = "select * from test";
         ResultSet rs = db.executeQuery(sql);
         List<ApiTestEntity> list = db.buildObjects(ApiTestEntity.class,rs);
-        System.out.println("-----------------------------");
-        System.out.println(list.size());
         return list;
     }
 }
