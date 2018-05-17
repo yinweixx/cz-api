@@ -60,7 +60,7 @@ public enum ErrorCode {
     /**
      * 错误代码
      */
-    private ErrorCode(int code) {
+    ErrorCode(int code) {
         this.code = code;
     }
 
