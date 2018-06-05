@@ -61,7 +61,7 @@ level:用来设置打印级别（日志级别），大小写无关：TRACE, DEBU
 addtivity:是否向上级loger传递打印信息。默认是true。
 <loger>可以包含零个或多个<appender-ref>元素，标识这个appender将会添加到这个loger。
  -->
-    <logger name="com.cn.cz.cloud" level="ALL" additivity="false">
+    <logger name="com.cn.cz.cloud" level="ERROR" additivity="false">
         <appender-ref ref="STDOUT"/>  <!--将日志输出到控制台-->
         <appender-ref ref="FILE"/>    <!--将日志输出到日志文件-->
     </logger>
