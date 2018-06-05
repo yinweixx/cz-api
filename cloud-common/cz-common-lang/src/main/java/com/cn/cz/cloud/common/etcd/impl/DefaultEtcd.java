@@ -40,7 +40,6 @@ public class DefaultEtcd implements Etcd{
         this.lease = client.getLeaseClient();
     }
 
-
     @Override
     public long grantAndKeepAliveLease(long ttlSecond) throws EtcdException {
         long leaseId = granLease(ttlSecond);

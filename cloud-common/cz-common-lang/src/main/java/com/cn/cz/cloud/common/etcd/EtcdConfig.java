@@ -1,5 +1,7 @@
 package com.cn.cz.cloud.common.etcd;
 
+import com.google.inject.Inject;
+
 import javax.inject.Singleton;
 import java.io.Serializable;
 
@@ -9,10 +11,18 @@ import java.io.Serializable;
  */
 @Singleton
 public class EtcdConfig implements Serializable{
-    private String schema = "http";
-    private String host = "etcd";
-    private int port = 2379;
-    private String basePathSegment = "v3";
+    private String schema;
+    private String host;
+    private String port;
+    private String basePathSegment;
+
+    @Inject
+    public EtcdConfig() {
+        this.schema = "http";
+        this.host = "http://192.168.1.205:2379";
+        this.port = "2379";
+        this.basePathSegment = "v3";
+    }
 
     public String getSchema() {
         return schema;
@@ -28,14 +38,6 @@ public class EtcdConfig implements Serializable{
 
     public void setHost(String host) {
         this.host = host;
-    }
-
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(int port) {
-        this.port = port;
     }
 
     public String getBasePathSegment() {

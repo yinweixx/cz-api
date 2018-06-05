@@ -4,6 +4,7 @@ import com.cn.cz.cloud.common.base.Context;
 import com.cn.cz.cloud.common.bean.InjectorsBuilder;
 import com.cn.cz.cloud.common.db.Database;
 import com.cn.cz.cloud.common.etcd.Etcd;
+import com.cn.cz.cloud.common.nats.Nats;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,14 +18,14 @@ public class DefaultContext implements Context {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultContext.class);
     private Database database;
     private Etcd etcd;
-//    private Nats nats;
+    private Nats nats;
     private String deviceId;
 
     @Inject
-    public DefaultContext(Database database, Etcd etcd) {
+    public DefaultContext(Database database,Etcd etcd,Nats nats) {
         this.database = database;
         this.etcd = etcd;
-//        this.nats = nats;
+        this.nats = nats;
     }
 
     @Override
@@ -36,8 +37,8 @@ public class DefaultContext implements Context {
     public Context init() throws Exception {
         try{
             database.connect();
-//            nats.connect();
-//            nats.startMessageMonitor();
+            nats.connect();
+            nats.startMessageMonitor();
         } catch (Exception ex){
             throw new Exception(ex);
         }
@@ -46,13 +47,13 @@ public class DefaultContext implements Context {
 
     @Override
     public Etcd getEtcd() {
-        return etcd;
+        return null;
     }
 
-//    @Override
-//    public Nats getNats() {
-//        return nats;
-//    }
+    @Override
+    public Nats getNats() {
+        return nats;
+    }
 
     @Override
     public <T> T getBeanByClass(Class<T> type) {

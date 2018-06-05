@@ -29,6 +29,9 @@ public class ApiTestDaoImpl extends AbstractIciqlDao implements ApiTestDao{
         String sql = "select * from test";
         ResultSet rs = db.executeQuery(sql);
         List<ApiTestEntity> list = db.buildObjects(ApiTestEntity.class,rs);
+
+        System.out.println(list.size());
+
         return list;
     }
 }

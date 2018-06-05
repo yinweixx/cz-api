@@ -1,13 +1,12 @@
-package com.cn.cz.cloud.common.nats.impl;
+package com.cn.cz.cloud.management.nats.impl;
 
 import com.cn.cz.cloud.common.exception.NatsInitialException;
 import com.cn.cz.cloud.common.nats.Nats;
 import com.cn.cz.cloud.common.nats.NatsConfig;
-import com.cn.cz.cloud.service.MessageProcessingService;
+import com.cn.cz.cloud.management.nats.service.MessageProcessingService;
 import com.google.inject.Inject;
 import io.nats.client.Connection;
 import io.nats.client.ConnectionFactory;
-import io.nats.client.MessageHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,12 +21,12 @@ public class DefaultNats implements Nats{
     private NatsConfig natsConfig;
     private ConnectionFactory connectionFactory;
     private Connection connection;
-    private MessageHandler messageHandler;
+//    private MessageHandler messageHandler;
 
     @Inject
-    public DefaultNats(NatsConfig natsConfig, MessageHandler messageHandler) {
+    public DefaultNats(NatsConfig natsConfig) {
         this.natsConfig = natsConfig;
-        this.messageHandler = messageHandler;
+//        this.messageHandler = messageHandler;
         connectionFactory = new ConnectionFactory(natsConfig.getUrl());
     }
 

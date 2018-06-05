@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-cz-cloud" />
         <module name="cz-cloud-common-lang" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-cz-cloud" target="1.8" />
       <module name="cloud-common-lang" target="1.9" />
-      <module name="cz-cloud-api-paas" target="1.9" />
+      <module name="cz-cloud-api-paas" target="1.5" />
       <module name="cz-cloud-common" target="1.5" />
-      <module name="cz-cloud-common-lang" target="1.9" />
+      <module name="cz-cloud-common-lang" target="1.8" />
       <module name="cz-cloud-parent-pass" target="1.5" />
     </bytecodeTargetLevel>
   </component>

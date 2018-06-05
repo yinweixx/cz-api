@@ -1,4 +1,4 @@
-package com.cn.cz.cloud.common.nats.impl;
+package com.cn.cz.cloud.management.nats.impl;
 
 import com.cn.cz.cloud.common.base.Context;
 import com.cn.cz.cloud.common.bean.InjectorsBuilder;

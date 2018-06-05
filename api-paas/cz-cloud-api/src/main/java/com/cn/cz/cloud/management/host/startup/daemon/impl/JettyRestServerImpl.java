@@ -15,7 +15,7 @@ public class JettyRestServerImpl implements JettyRestServer{
     private final static String PORT = "8080";
     private final static String PATH_SPEC = "/*";
     private final static String INIT_PARAMETER_NAME = "jersey.config.server.provider.classnames";
-    private final static String PACKAGE_NAME = "com.cn.cz.cloud.management";
+    private final static String PACKAGE_NAME = "com/cn/cz/cloud/management";
     private final static String CHILE_PACKAGE = "true";
 
     @Override
