@@ -20,6 +20,9 @@ public class ApiTestEntity extends AbstractEntity{
     @Iciql.IQColumn(name = "lanm",length = 200)
     private String lanm;
 
+    @Iciql.IQColumn(name = "num")
+    private Integer num;
+
     public Integer getId() {
         return id;
     }
@@ -42,5 +45,13 @@ public class ApiTestEntity extends AbstractEntity{
 
     public void setLanm(String lanm) {
         this.lanm = lanm;
+    }
+
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
     }
 }

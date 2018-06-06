@@ -9,5 +9,5 @@ import java.util.List;
  * @date 5/11/18 16:12
  */
 public interface ApiTestDao {
-    List<ApiTestEntity> queryTest() throws RuntimeException;
+    List<ApiTestEntity> queryTest();
 }

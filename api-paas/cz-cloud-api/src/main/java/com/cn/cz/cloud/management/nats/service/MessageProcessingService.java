@@ -58,17 +58,21 @@ public class MessageProcessingService {
 
     public void start() {
         connect.subscribe(subject,"job", msg -> {
-            executorService.submit(()->{
-                LOGGER.debug("Message msg:[{}]", msg);
-
-                apiTestService.queryDetails();
-
-                try {
-                    connect.publish(msg.getReplyTo(),"i get your help".getBytes());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            });
+            LOGGER.info("GET NATS REQUEST is " + msg.getData());
+            apiTestService.queryDetails();
+            try {
+                connect.publish(msg.getReplyTo(),"i get your help".getBytes());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+//            executorService.submit(()->{
+//                apiTestService.queryDetails();
+//                try {
+//                    connect.publish(msg.getReplyTo(),"i get your help".getBytes());
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            });
         });
     }
 }

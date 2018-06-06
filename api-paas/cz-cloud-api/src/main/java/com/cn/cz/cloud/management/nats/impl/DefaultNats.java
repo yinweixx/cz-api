@@ -58,7 +58,6 @@ public class DefaultNats implements Nats{
     @Override
     public void startMessageMonitor() {
         LOGGER.debug("Nats subscribe  subject: [{}]", natsConfig.getSubject());
-        LOGGER.debug("Nats subscribe  url: [{}]", natsConfig.getUrl());
         if (connection == null){
             try {
                 connection = connectionFactory.createConnection();

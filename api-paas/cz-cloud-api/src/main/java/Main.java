@@ -23,5 +23,6 @@ public class Main {
 
         injectorsBuilder.getKernelInjector().getInstance(Context.class).init();
         injectorsBuilder.getKernelInjector().getInstance(StartupClass.class).startup();
+        LOGGER.info("service is started");
     }
 }
