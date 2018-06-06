@@ -25,7 +25,7 @@ public class ApiTestServiceImpl implements ApiTestService{
     @Override
     public Response queryDetails() {
         Response response = new Response<ApiTestEntity>();
-        apiTestDao.queryTest();
+        apiTestDao.queryIntegerTest();
         response.setCode(ErrorCode.NO_ERROR.code());
         return null;
     }

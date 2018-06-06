@@ -1,6 +1,5 @@
 package com.cn.cz.cloud.common.mysql;
 
-import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.io.Serializable;
 

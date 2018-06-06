@@ -10,4 +10,6 @@ import java.util.List;
  */
 public interface ApiTestDao {
     List<ApiTestEntity> queryTest();
+
+    List<Integer> queryIntegerTest();
 }

@@ -5,8 +5,6 @@ import com.cn.cz.cloud.common.bean.InjectorsBuilder;
 import com.cn.cz.cloud.common.db.Database;
 import com.cn.cz.cloud.common.etcd.Etcd;
 import com.cn.cz.cloud.common.nats.Nats;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.inject.Inject;
 
@@ -15,11 +13,9 @@ import javax.inject.Inject;
  * @date 5/11/18 13:28
  */
 public class DefaultContext implements Context {
-    private static final Logger LOGGER = LoggerFactory.getLogger(DefaultContext.class);
     private Database database;
     private Etcd etcd;
     private Nats nats;
-    private String deviceId;
 
     @Inject
     public DefaultContext(Database database,Etcd etcd,Nats nats) {

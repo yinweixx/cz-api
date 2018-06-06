@@ -21,12 +21,10 @@ public class DefaultNats implements Nats{
     private NatsConfig natsConfig;
     private ConnectionFactory connectionFactory;
     private Connection connection;
-//    private MessageHandler messageHandler;
 
     @Inject
     public DefaultNats(NatsConfig natsConfig) {
         this.natsConfig = natsConfig;
-//        this.messageHandler = messageHandler;
         connectionFactory = new ConnectionFactory(natsConfig.getUrl());
     }
 

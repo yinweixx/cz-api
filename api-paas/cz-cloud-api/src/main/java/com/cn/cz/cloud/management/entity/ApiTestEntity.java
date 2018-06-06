@@ -12,16 +12,16 @@ import com.iciql.Iciql;
 public class ApiTestEntity extends AbstractEntity{
 
     @Iciql.IQColumn(name = "id",primaryKey = true,autoIncrement = true)
-    private Integer id;
+    public Integer id;
 
     @Iciql.IQColumn(name = "url",length = 200)
-    private String url;
+    public String url;
 
     @Iciql.IQColumn(name = "lanm",length = 200)
-    private String lanm;
+    public String lanm;
 
     @Iciql.IQColumn(name = "num")
-    private Integer num;
+    public Integer num;
 
     public Integer getId() {
         return id;
