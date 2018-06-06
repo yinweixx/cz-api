@@ -8,6 +8,7 @@ import com.google.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.sql.ResultSet;
 import java.util.List;
 
 /**
@@ -29,6 +30,7 @@ public class ApiTestDaoImpl extends AbstractIciqlDao implements ApiTestDao{
         String sql = "update test set num = num + 1 where id = 1";
         try {
             db.executeUpdate(sql);
+//            ResultSet rs = db.executeQuery(sql);
 //            List<ApiTestEntity> list = db.buildObjects(ApiTestEntity.class,rs);
         } catch (Exception e){
             LOGGER.error(e.getMessage());
