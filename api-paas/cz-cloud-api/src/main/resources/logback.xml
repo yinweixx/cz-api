@@ -28,19 +28,41 @@
         </encoder>
     </appender>
 
-    <!-- 写文件日志配置-->
-    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <!--如果是 true，日志被追加到文件结尾 默认是true -->
-        <append>true</append>
-        <!--被写入的文件名，可以是相对目录，也可以是绝对目录，如果上级目录不存在会自动创建，没有默认值。 -->
-        <file>${logPath}</file>
-        <!--对记录事件进行格式-->
-        <encoder>
-            <Pattern>
-                %d{yyyy-MM-dd HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} %msg%n
-            </Pattern>
+
+    <!-- 按照每天生成日志文件 -->
+    <appender name="FILE"  class="ch.qos.logback.core.FileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--日志文件输出的文件名-->
+            <FileNamePattern>${LOG_HOME}/audioDist.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <!--日志文件保留天数-->
+            <MaxHistory>300</MaxHistory>
+            <maxFileSize>10MB</maxFileSize>
+            <totalSizeCap>100MB</totalSizeCap>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
         </encoder>
+        <!--日志文件最大的大小
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+         <MaxFileSize>10KB</MaxFileSize>
+       </triggeringPolicy>
+       -->
     </appender>
+
+    <!--&lt;!&ndash; 写文件日志配置&ndash;&gt;-->
+    <!--<appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
+        <!--&lt;!&ndash;如果是 true，日志被追加到文件结尾 默认是true &ndash;&gt;-->
+        <!--<append>true</append>-->
+        <!--&lt;!&ndash;被写入的文件名，可以是相对目录，也可以是绝对目录，如果上级目录不存在会自动创建，没有默认值。 &ndash;&gt;-->
+        <!--<file>${logPath}</file>-->
+        <!--&lt;!&ndash;对记录事件进行格式&ndash;&gt;-->
+        <!--<encoder>-->
+            <!--<Pattern>-->
+                <!--%d{yyyy-MM-dd HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} %msg%n-->
+            <!--</Pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
 
     <!--
     设置root
@@ -48,7 +70,7 @@
 level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，不能设置为INHERITED或者同义词NULL。默认是DEBUG。
 <root>可以包含零个或多个<appender-ref>元素，标识这个appender将会添加到这个loger。
     -->
-    <root level="ALL">
+    <root level="INFO">
         <!-- 可以包含多个 appender 。。。 -->
         <appender-ref ref="STDOUT"/>  <!--将日志输出到控制台-->
         <appender-ref ref="FILE"/>  <!--将日志输出到文件-->
@@ -61,7 +83,7 @@ level:用来设置打印级别（日志级别），大小写无关：TRACE, DEBU
 addtivity:是否向上级loger传递打印信息。默认是true。
 <loger>可以包含零个或多个<appender-ref>元素，标识这个appender将会添加到这个loger。
  -->
-    <logger name="com.cn.cz.cloud" level="ERROR" additivity="false">
+    <logger name="com.cn.cz.cloud" level="INFO" additivity="false">
         <appender-ref ref="STDOUT"/>  <!--将日志输出到控制台-->
         <appender-ref ref="FILE"/>    <!--将日志输出到日志文件-->
     </logger>

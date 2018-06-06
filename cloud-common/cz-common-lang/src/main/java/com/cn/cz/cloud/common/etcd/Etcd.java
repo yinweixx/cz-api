@@ -1,7 +1,7 @@
 package com.cn.cz.cloud.common.etcd;
 
+import com.coreos.jetcd.common.exception.EtcdException;
 import com.coreos.jetcd.data.KeyValue;
-import com.coreos.jetcd.exception.EtcdException;
 
 import java.util.List;
 

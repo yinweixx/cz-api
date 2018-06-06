@@ -19,7 +19,7 @@ public class EtcdConfig implements Serializable{
     @Inject
     public EtcdConfig() {
         this.schema = "http";
-        this.host = "http://192.168.1.205:2379";
+        this.host = "http://etcd_server.service.consul:2379";
         this.port = "2379";
         this.basePathSegment = "v3";
     }

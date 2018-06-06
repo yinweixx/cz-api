@@ -17,14 +17,14 @@ import javax.inject.Inject;
 public class DefaultContext implements Context {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultContext.class);
     private Database database;
-//    private Etcd etcd;
+    private Etcd etcd;
     private Nats nats;
     private String deviceId;
 
     @Inject
-    public DefaultContext(Database database,Nats nats) {
+    public DefaultContext(Database database,Etcd etcd,Nats nats) {
         this.database = database;
-//        this.etcd = etcd;
+        this.etcd = etcd;
         this.nats = nats;
     }
 
@@ -47,7 +47,7 @@ public class DefaultContext implements Context {
 
     @Override
     public Etcd getEtcd() {
-        return null;
+        return etcd;
     }
 
     @Override

@@ -35,7 +35,7 @@
         <version.jsckson-core>2.7.0</version.jsckson-core>
         <version.inject-guice>4.1.0</version.inject-guice>
         <version.nats>1.0</version.nats>
-        <version.jetcd-core>0.0.1</version.jetcd-core>
+        <version.jetcd-core>0.0.2</version.jetcd-core>
         <version.mysql>5.1.36</version.mysql>
         <version.commons-dbcp2>2.1.1</version.commons-dbcp2>
         <version.iciql>2.1.1</version.iciql>

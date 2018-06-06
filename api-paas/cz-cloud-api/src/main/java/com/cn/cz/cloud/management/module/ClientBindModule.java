@@ -17,7 +17,7 @@ public class ClientBindModule extends AbstractModule{
 
     @Override
     protected void configure() {
-//        bind(Etcd.class).to(DefaultEtcd.class);
+        bind(Etcd.class).to(DefaultEtcd.class);
         bind(Nats.class).to(DefaultNats.class);
     }
 }
